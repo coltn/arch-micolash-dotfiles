@@ -1,6 +1,6 @@
 * {
     border: none;
-    border-radius: 0;
+    border-radius: 0px;
     font-family: JetBrains Mono;
     font-size: 20px;
     min-height: 0;
@@ -13,8 +13,10 @@ window#waybar {
     color: #a3be8c;
     transition-property: background-color;
     transition-duration: 0.5s;
+    border-radius: 5px;
 }
 
+style.css
 window#waybar.hidden {
     opacity: 0.2;
 }
@@ -73,6 +75,8 @@ window#waybar.hidden {
 #clock {
     color: #000000;
     background-color: #a3be8c;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 #battery {

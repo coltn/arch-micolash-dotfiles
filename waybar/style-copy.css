@@ -10,18 +10,19 @@
 window#waybar {
     background-color: #3c3836;
     border-bottom: none;
-    color: #ebdbb2;
+    color: #a3be8c;
     transition-property: background-color;
     transition-duration: 0.5s;
 }
 
+style.css
 window#waybar.hidden {
     opacity: 0.2;
 }
 
 #workspaces button {
     padding: 0 5px;
-    color: #ebdbb2;
+    color: #a3be8c;
     border-radius: 5px;
 }
 
@@ -34,11 +35,19 @@ window#waybar.hidden {
 }
 
 #workspaces button.focused {
-    background-color: #ebdbb2;
+    background-color: #a3be8c;
     color: #282828;
     border-bottom: none;
     border-radius: 5px;
 }
+
+#workspaces button.active {
+    background-color: #a3be8c;
+    color: #282828;
+    border-bottom: none;
+    border-radius: 5px;
+}
+
 
 #workspaces button.urgent {
     background-color: #2c303c;
@@ -64,22 +73,22 @@ window#waybar.hidden {
 
 #clock {
     color: #000000;
-    background-color: #ebdbb2;
+    background-color: #a3be8c;
 }
 
 #battery {
-    background-color: #ebdbb2;
+    background-color: #a3be8c;
     color: #000000;
 }
 
 #battery.charging {
     color: #000000;
-    background-color: #ebdbb2;
+    background-color: #a3be8c;
 }
 
 @keyframes blink {
     to {
-        background-color: #ebdbb2;
+        background-color: #a3be8c;
         color: #282828;
     }
 }
@@ -99,40 +108,40 @@ label:focus {
 }
 
 #backlight {
-    background-color: #ebdbb2;
+    background-color: #a3be8c;
     color: #000000;
 }
 
 #network {
-    background-color: #ebdbb2;
+    background-color: #a3be8c;
     color: #000000;
 }
 
 #network.disconnected {
-    background-color: #ebdbb2;
+    background-color: #a3be8c;
 }
 
 #pulseaudio {
-    background-color: #ebdbb2;
+    background-color: #a3be8c;
     color: #000000;
     border-radius: 5px 0px 0px 5px;
 }
 
 #pulseaudio.muted {
-    background-color: #ebdbb2;
+    background-color: #a3be8c;
     color: #000000;
 }
 
 #idle_inhibitor {
     background-color: rgba(0, 0, 0, 0);
-    color: #ebdbb2;
+    color: #a3be8c;
     border-radius: 5px;
     margin-right: 2px;
     margin-left: 3px;
 }
 
 #idle_inhibitor.activated {
-    background-color: #ebdbb2;
+    background-color: #a3be8c;
     color: #282828;
     border-radius: 5px;
     margin-right: 2px;
