@@ -21,7 +21,7 @@ end
 
 ### run system update
 function update
-    sudo pacman -Syyu
+    sudo pacman -Syyu && flatpak update
 end
 
 
