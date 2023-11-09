@@ -12,7 +12,8 @@ set EDITOR "nvim"
 
 ### custom fish greating
 function fish_greeting
-    echo $hostname says (set_color green) Hello world!(set_color blue) from fish\n
+    figlet $hostname
+    echo says (set_color green) Hello world!(set_color blue) from fish\n
     neofetch
     sleep 2
     clear

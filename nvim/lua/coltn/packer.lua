@@ -27,5 +27,6 @@ return require('packer').startup(function(use)
   use( 'mbbill/undotree')
   use( 'tpope/vim-fugitive')
   use( 'norcalli/nvim-colorizer.lua')
+  use( 'vimwiki/vimwiki')
 
 end)
