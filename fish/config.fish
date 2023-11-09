@@ -22,10 +22,26 @@ end
 
 ### run system update
 function update
+    figlet -f 3D-ASCII.flf "update"
     sudo pacman -Syyu && flatpak update
+end
+
+### Tailscale up
+function tailup
+    figlet -f 3d.flf "Connecting to Tailscale"
+    sudo systemctl start tailscaled && sh ~/scripts/tailup.sh
+    figlet -f 3d.flf "CONNECTED"
+    tailscale status
+end
+
+### Edit dot files
+function config
+    cd ~/.config
+    nvim . vim
 end
 
 
 ## aliases
 alias vim='nvim'
 alias ..='cd ..'
+alias vimex='nvim . vim'
