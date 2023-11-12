@@ -29,7 +29,7 @@ end
 ### Tailscale up
 function tailup
     figlet -f 3d.flf "Connecting to Tailscale"
-    sudo systemctl start tailscaled && sh ~/scripts/tailup.sh
+    sudo systemctl start tailscaled && sh ~/.config/scripts/tailup.sh
     figlet -f 3d.flf "CONNECTED"
     tailscale status
 end
