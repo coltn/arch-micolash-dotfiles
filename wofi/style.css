@@ -1,6 +1,6 @@
 window {
 margin: 0px;
-border: 3px solid #a3be8c;
+border: 3px solid #8C9F94;
 background-color: #282a36;
 opacity: 0.9;
 filter: blur(9px);
@@ -14,7 +14,7 @@ border-radius: 10px;
 #input {
 font-weight: bold;
 margin: 5px;
-border: 2px solid #a3be8c;
+border: 2px solid #8C9F94;
 color: #ffffff;
 background-color: #324E50;
 }
@@ -51,7 +51,7 @@ color: #f8f8f2;
 }
 
 #entry:selected {
-background-color: #a3be8c;
+background-color: #8C9F94;
 }
 
 #entry:selected #text {

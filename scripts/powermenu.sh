@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-op=$( echo -e " Poweroff\n Reboot\n Suspend\n Lock\n Logout" | wofi -i -w 5 -H 100 --dmenu | awk '{print tolower($2)}' )
+op=$( echo -e " poweroff\n reboot\n suspend\n lock\n logout" | wofi -i -p "select menu option" -w 5 -H 100 --dmenu | awk '{print tolower($2)}' )
 
 case $op in 
         poweroff)
@@ -14,6 +14,6 @@ case $op in
 		swaylock
                 ;;
         logout)
-                swaymsg exit
+                hyprctl dispatch exit
                 ;;
 esac

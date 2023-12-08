@@ -12,11 +12,6 @@ set EDITOR "nvim"
 
 ### custom fish greating
 function fish_greeting
-    figlet $hostname
-    echo says (set_color green) Hello world!(set_color blue) from fish\n
-    neofetch
-    sleep 2
-    clear
 end
 
 
@@ -45,3 +40,8 @@ end
 alias vim='nvim'
 alias ..='cd ..'
 alias vimex='nvim . vim'
+alias neofetch='fastfetch --file ~/.config/ascii/bloodbornelogo-neofetch'
+alias updaterepo='sudo reflector -c Canada --save /etc/pacman.d/mirrorlist --protocol https --sort rate'
+alias debianvm='sh ~/vm/debian/run.sh' 
+alias windowsvm='sh ~/vm/runwindows.sh'
+alias wobreset='sh ~/.config/scripts/wob.sh'

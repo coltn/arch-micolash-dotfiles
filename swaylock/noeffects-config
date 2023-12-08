@@ -34,6 +34,7 @@ indicator-thickness=30
 
 # Flags
 daemonize
+clock
 indicator-caps-lock
 show-failed-attempts
 indicator-idle-visible
