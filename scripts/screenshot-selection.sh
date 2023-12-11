@@ -1,1 +1,1 @@
-date +"%Y%m%dT%H:%M:%S" | xargs -I % grim -g "$(slurp -d)" ~/media/pictures/screenshots/screenshot-%.png
+grim -g "$(slurp -d)" "$HOME/media/pictures/screenshots/screenshot_$(date '+%Y%m%dT%H%M%S')".png

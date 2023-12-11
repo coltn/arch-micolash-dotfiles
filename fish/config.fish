@@ -18,7 +18,18 @@ end
 ### run system update
 function update
     figlet -f 3D-ASCII.flf "update"
-    sudo pacman -Syyu && flatpak update
+    echo (set_color green) && figlet -f miniwi.flf "updating pacman"
+    sudo pacman -Syyu
+    echo "======================================================================"
+    figlet -f miniwi.flf  "updating flatpak"
+    sudo flatpak update
+    echo "======================================================================"
+    echo  (set_color blue) "update complete, creating app list at ~/.config/applist/<repo-name>-apps"
+    date +"%Y-%m-%dT%H:%M:%S" > ~/.config/applist/flatpak-apps && flatpak list --columns app >> ~/.config/applist/flatpak-apps
+    date +"%Y-%m-%dT%H:%M:%S" > ~/.config/applist/pacman-apps && pacman -Qqen >> ~/.config/applist/pacman-apps 
+    date +"%Y-%m-%dT%H:%M:%S" > ~/.config/applist/aur-apps && pacman -Qqem >> ~/.config/applist/aur-apps
+    echo "======================================================================"
+    echo  "lists updated 😄" && ls ~/.config/applist/
 end
 
 ### Tailscale up
@@ -45,3 +56,4 @@ alias updaterepo='sudo reflector -c Canada --save /etc/pacman.d/mirrorlist --pro
 alias debianvm='sh ~/vm/debian/run.sh' 
 alias windowsvm='sh ~/vm/runwindows.sh'
 alias wobreset='sh ~/.config/scripts/wob.sh'
+alias rustcif='sh ~/.config/scripts/rustshare-cif.sh'
