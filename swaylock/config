@@ -26,7 +26,9 @@ text-wrong-color=1F202A
 bs-hl-color=ff5555
 key-hl-color=50fa7b
 
-text-caps-lock-color=f8f8f2
+text-caps-lock-color=9c716e
+ring-caps-lock-color=9c716e
+inside-caps-lock-color=323C34
 
 # Size
 indicator-radius=300
