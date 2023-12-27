@@ -1,4 +1,4 @@
-2023-12-20T16:25:03
+2023-12-27T14:14:40
 com.discordapp.Discord
 com.github.Eloston.UngoogledChromium
 com.github.Eloston.UngoogledChromium.Codecs
@@ -6,6 +6,7 @@ com.mojang.Minecraft
 com.spotify.Client
 com.valvesoftware.Steam
 io.mrarm.mcpelauncher
+one.ablaze.floorp
 org.duckstation.DuckStation
 org.freedesktop.Platform
 org.freedesktop.Platform
@@ -16,6 +17,7 @@ org.freedesktop.Platform.GL.default
 org.freedesktop.Platform.GL.default
 org.freedesktop.Platform.GL32.default
 org.freedesktop.Platform.GL32.default
+org.freedesktop.Platform.ffmpeg-full
 org.freedesktop.Platform.openh264
 org.gtk.Gtk3theme.Materia-dark-compact
 org.kde.Platform
