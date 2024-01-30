@@ -1,4 +1,4 @@
-2024-01-13T11:38:48
+2024-01-29T22:04:53
 acpi
 adapta-gtk-theme
 amd-ucode
@@ -7,6 +7,7 @@ arc-icon-theme
 base
 base-devel
 bitwarden
+blueman
 bluez-utils
 btop
 cifs-utils
@@ -43,8 +44,10 @@ iio-sensor-proxy
 imv
 iperf
 iwd
+kdeconnect
 kitty
 krita
+kvantum
 libfprint
 libsixel
 linux
@@ -65,6 +68,7 @@ net-tools
 netctl
 networkmanager
 noto-fonts-emoji
+nwg-look
 obs-studio
 obsidian
 obsidian-icon-theme
@@ -72,6 +76,7 @@ openssh
 os-prober
 otf-font-awesome
 otf-ipaexfont
+oxygen
 p7zip
 pacman-contrib
 papirus-icon-theme
@@ -86,6 +91,7 @@ polkit-kde-agent
 power-profiles-daemon
 powertop
 python-gobject
+python-pipx
 qbittorrent
 qemu-full
 qmk
@@ -95,6 +101,7 @@ ranger
 reflector
 retroarch
 scrcpy
+signal-desktop
 slurp
 speedtest-cli
 spotifyd
@@ -107,10 +114,12 @@ thunar
 ttf-dejavu
 ttf-liberation
 tumbler
+usbutils
 vim
 vulkan-radeon
 w3m
 waybar
+wev
 wget
 wireless_tools
 wireplumber
