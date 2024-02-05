@@ -1,4 +1,4 @@
-2024-01-29T22:04:53
+2024-02-04T11:02:02
 acpi
 adapta-gtk-theme
 amd-ucode
@@ -67,6 +67,7 @@ neovim
 net-tools
 netctl
 networkmanager
+nfs-utils
 noto-fonts-emoji
 nwg-look
 obs-studio
@@ -100,6 +101,7 @@ qutebrowser
 ranger
 reflector
 retroarch
+rsync
 scrcpy
 signal-desktop
 slurp
