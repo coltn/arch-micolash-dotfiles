@@ -1,4 +1,4 @@
-2024-02-04T11:02:02
+2024-02-11T14:48:41
 acpi
 adapta-gtk-theme
 amd-ucode
@@ -6,6 +6,7 @@ arc-gtk-theme
 arc-icon-theme
 base
 base-devel
+bat
 bitwarden
 blueman
 bluez-utils
@@ -101,7 +102,9 @@ qutebrowser
 ranger
 reflector
 retroarch
+ripgrep
 rsync
+rustup
 scrcpy
 signal-desktop
 slurp
@@ -113,6 +116,7 @@ swaylock
 syncthing
 tailscale
 thunar
+tmux
 ttf-dejavu
 ttf-liberation
 tumbler
