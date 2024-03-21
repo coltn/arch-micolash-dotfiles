@@ -48,7 +48,7 @@ end
 
 
 ## aliases
-alias vim='nvim'
+# alias vim='nvim'
 alias ..='cd ..'
 alias vimex='nvim . vim'
 alias neofetch='fastfetch --file ~/.config/ascii/bloodbornelogo-neofetch'
