@@ -1,4 +1,4 @@
-2024-03-21T10:52:27
+2024-03-22T17:24:54
 acpi
 adapta-gtk-theme
 amd-ucode
@@ -40,7 +40,9 @@ grim
 grub
 gtk-engine-murrine
 htop
+hypridle
 hyprland
+hyprlock
 iio-sensor-proxy
 imv
 iperf
@@ -111,8 +113,6 @@ slurp
 speedtest-cli
 spotifyd
 swaybg
-swayidle
-swaylock
 syncthing
 tailscale
 thunar
