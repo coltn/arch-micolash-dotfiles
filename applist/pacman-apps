@@ -1,4 +1,4 @@
-2024-03-22T17:24:54
+2024-03-29T18:36:36
 acpi
 adapta-gtk-theme
 amd-ucode
@@ -94,6 +94,7 @@ pipewire-pulse
 polkit-kde-agent
 power-profiles-daemon
 powertop
+prusa-slicer
 python-gobject
 python-pipx
 qbittorrent
