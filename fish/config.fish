@@ -58,3 +58,5 @@ alias windowsvm='sh ~/vm/runwindows.sh'
 alias wobreset='sh ~/.config/scripts/wob.sh'
 alias rustcif='sh ~/.config/scripts/rustshare-cif.sh'
 alias webcam-preview='mpv av://v4l2:/dev/video6 --profile=low-latency --untimed'
+
+starship init fish | source
