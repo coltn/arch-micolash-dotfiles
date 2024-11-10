@@ -1,4 +1,4 @@
-2024-05-24T09:11:21
+2024-11-10T10:47:29
 acpi
 adapta-gtk-theme
 amd-ucode
@@ -42,10 +42,12 @@ greetd-tuigreet
 grim
 grub
 gtk-engine-murrine
+gvfs-mtp
 htop
 hypridle
 hyprland
 hyprlock
+hyprpicker
 iio-sensor-proxy
 imv
 iperf
@@ -54,6 +56,8 @@ kdeconnect
 kitty
 krita
 kvantum
+kvantum-qt5
+lazygit
 libfprint
 libsixel
 linux
@@ -97,6 +101,7 @@ pipewire-pulse
 polkit-kde-agent
 power-profiles-daemon
 powertop
+pragha
 prusa-slicer
 python-gobject
 python-pipx
@@ -116,6 +121,8 @@ signal-desktop
 slurp
 speedtest-cli
 spotifyd
+starship
+strawberry
 swaybg
 syncthing
 tailscale
@@ -131,15 +138,16 @@ w3m
 waybar
 wev
 wget
+wireguard-tools
 wireless_tools
 wireplumber
 wl-clipboard
+wob
 wofi
 wpa_supplicant
 wtype
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
-xdg-desktop-portal-wlr
 xdg-user-dirs
 xf86-video-amdgpu
 zathura
