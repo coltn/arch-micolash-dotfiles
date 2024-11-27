@@ -1,6 +1,6 @@
 #!/bin/bash
-WINDOW=$(hyprctl clients | awk '/title: ./ { gsub("\t*title: *", ""); print}' | wofi -dmenu | xargs -I{} hyprctl dispatch focuswindow "title:{}")
+WINDOW=$(hyprctl clients -j | jq -r '.[] | "[\(.workspace.id)] [\(.class)] \(.title) \(.address)"' | sort | fuzzel -d -w 50 | awk '{print $NF}')
 if [ "$WINDOW" = "" ]; then
     exit
 fi
-hyprctl dispatch focuswindow $WINDOW
+hyprctl dispatch focuswindow address:$WINDOW
