@@ -1,0 +1,336 @@
+ls -a
+vim .bashrc
+ls
+cd pictures
+ls
+cd wallpapers
+LS
+ls
+1*
+feh 1*
+imv 1*
+imv
+ranger
+sudo fwupdmgr refresh
+sudo fwupdmgr update
+ip link show dev
+ip link
+ls /sys/class/net
+iw dev
+ls /sys/class/net
+lspci -k
+prompt walters
+ssh nextcloud@10.0.0.116
+compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"\
+
+exit
+fRns
+fh
+vim .zshrc
+fs
+exit
+cd .config
+cd
+alias
+fa
+alias | fzf
+alias | fzf
+webcam-preview
+ls
+cd documents
+ls
+cd
+exit
+fastfetch
+man zsh
+man fish
+man zsh
+zsh -c fastfetch
+exit
+fastfetch
+vim .zshrc
+vim .zshrc
+vim .zshrc
+cd downlaods
+cd downloads
+vim .zshrc
+cd
+vim .zshrc
+vim .zshrc
+ls
+cd data
+ls
+cd nvim-backup
+ls
+cd dot-config
+ls
+fh
+cd
+nvim
+nvim .zshrc
+fS
+fRns
+vim .config/hypr/source
+vim .config/hypr/source
+chsh -l
+chsh -s /usr/bin/zsh
+chsh -s /usr/bin/zsh
+tmux
+vim .zshrc
+ls
+vim .zshrc
+zle-line-init 
+\:Q
+vim .zshrc
+vim .zshrc
+fish
+this is a test
+clear
+ls
+cd data
+cd
+vim .zshrc
+fh
+vim .zshrc
+ls
+clear
+fastfetch
+ls -al
+ls -al | grep zsh
+mkdir .zsh
+cd .zsh
+git clone https://github.com/zsh-users/zsh-autosuggestions.git
+cd
+vim .zshrc
+yay
+cd .zsh
+ls
+cd zsh-autosuggestions/.git
+ls
+vim config
+exit
+vim .config/hypr/source/binds.conf
+vim .config/hypr/hyprland.conf
+tmux
+source .config/tmux/tmux.conf
+tmux
+tmux --help
+tmux man
+man tmux
+killall tmux
+pkill tmux
+tmux
+nvim /home/coltn/.config/hypr/hyprland.conf
+nvim .config/fish/config.fish
+ls
+cd documents/notes
+ls
+fh
+fh
+exit
+ssh docker@10.0.0.204
+zsh
+fh
+exit
+\:Ex
+yay
+fastfetch
+clear
+ls
+cd data
+ls
+cd projects
+ls
+mkdir cs50x-psets
+mv cs50x-psets cs50x
+cd cs50x
+cd
+mkdir .config/zsh
+ls .config/zsh
+ls
+export ZDOTDIR=$HOME/.config/zsh
+cd /etc/zsh
+ls
+cat zprofile
+sudo vim zshenv
+cp ~/.zshrc ~/.config/zsh/
+tmux
+tmux
+tmux a
+tmux a
+tmux new-session -t homelab
+echo $ZODOTDIR
+echo $ZODOTDIR
+cat /etc/zsh/zshenv
+ls
+cd downloads
+ls
+sudo cp zshenv /etc/zsh
+cat /etc/zsh
+cat /etc/zsh/zshenv
+cat zshenv
+ls -al /etc/zsh
+cd
+sudo cp ~/.config/zsh/.zshrc coltn@10.0.0.208:/home/coltn/.config/zsh/
+scp ~/.config/zsh/.zshrc coltn@10.0.0.208:/home/coltn/.config/zsh/
+sudo scp /etc/zsh/zshenv colt@10.0.0.208:/etc/zsh/
+sudo scp /etc/zsh/zshenv colt@10.0.0.208:/etc/zsh/
+sudo scp /etc/zsh/zshenv colt@10.0.0.208:/etc/zsh/
+ls downloads | grep zsh
+scp downloads/zshenv coltn@10.0.0.208:/home/coltn/downloads/
+echo $ZODOTDIR
+ls
+ls
+cp .zshrc ~/.config/zsh/
+rm -r .zsh
+exit
+echo $ZODOTDIR
+sudo vim /etc/zsh/zshenv
+man zsh
+ls -al | grep .
+ls -al | grep .*
+ls -al | grep ".*"
+ls -al | grep "."*
+ls -al | grep zsh
+cd .zsh
+ls
+mkdir -p ~/.config/zsh/plugins
+mv zsh-autosuggestions ~/.config/zsh/plugins
+cd
+vim .zshrc
+cat /etc/zsh/zshenv > ~/.zshenv
+zsh
+zsh
+vim .config/zsh/.zshrc
+zsh
+exit
+zsh
+echo $ZODOTDIR
+echo $ZDOTDIR
+sudo rm /etc/zsh/zshenv
+echo $ZDOTDIR
+echo $HISTFILE
+fh
+cat .config/zsh/.histfile > .config/zsh/history
+fh
+fh
+echo $HISTFILE
+echo $ZDOTDIR
+vim .config/zsh/.zshrc
+ls -al
+vim .config/zsh/.zshrc
+echo $XDG_CACHE_HOME
+ls -al
+ls -al .cache/
+vim .config/user-dirs.dirs
+vim .config/zsh/.zshrc
+echo $XDG_CACHE_HOME
+echo $XDG_CACHE_HOME
+sudo vim /etc/profile.d/locale.sh
+vim .config/zsh/.zshrc
+ls -al
+cat .zcompdump
+fastfetch
+yay
+neofetch
+fastfetch
+sudo yay -Rs fish
+yay -S fish
+fRns
+fRns
+neofetch
+fastfetch
+swaybg --help
+swaybg -i ~/downloads/wallhaven-2y5wv9_2560x1920.png
+tmux
+fastfetch
+cd .config
+nvim
+tmux
+yay
+zsh
+cd ~/.config/wallpaper/
+ls
+mv 1.png 2.png
+mv ~/downloads/wallhaven-2y5wv9_2560x1920.png ./1.png
+ls
+imv 1.png
+cd
+nvim .config/hypr/source/autostart.conf
+ping google.ca
+ping 10.0.0.104
+ping 10.0.0.236
+tmux
+ssh qbit@10.0.0.104
+cat downloads/linds_pw | wl-copy
+cat downloads/linds_pw
+clear
+cal
+ssh qbit@10.0.0.104
+ssh jellyfin@10.0.0.82
+tmux
+ssh jellyfin@10.0.0.82
+infocmp
+infocmp > terminfo.txt
+scp terminfo.txt tailscale@10.0.0.225:/home/tailscale/
+infocmp | ssh tailscale@10.0.0.225 tic -
+ssh -i ~/.ssh/linode-nginx jumper@172.105.9.112
+ssh docker@10.0.0.204
+ssh qbit@10.0.0.104
+ssh qbit@10.0.0.104
+ssh qbit@10.0.0.104
+ssh caddy@10.0.0.161
+ssh caddy@10.0.0.161
+ssh qbit@10.0.0.104
+ssh qbit@10.0.0.104
+ssh qbit@10.0.0.104
+ssh qbit@10.0.0.104
+ssh qbit@10.0.0.104fabric-strongman-backlit
+ssh qbit@10.0.0.104
+ssh qbit@10.0.0.104
+ssh qbit@10.0.0.104
+yay
+ssh fileserver@10.0.0.108
+ssh fileserver@10.0.0.108
+ssh tailscale@10.0.0.225
+ssh tailscale@10.0.0.225
+ssh -i ~/.ssh/linode-jumper jumper@172.105.9.112
+ssh tailscale@10.0.0.225
+swaybg -i ~/downloads/1325118.png
+swaybg -i ~/downloads/purple-aesthetic-5120x2880-18775.jpg
+sudo flatpak repair
+flatpak update
+ls -al
+cd .config/fish
+ls
+cd completions
+ls
+cd ..
+ls
+ls -al functions
+ls -al conf.d
+cd
+scrcpy --help
+scrcpy --kill-adb-on-close -wS
+scrcpy --kill-adb-on-close -wS
+scrcpy --help | power
+scrcpy --help | grep power
+echo "scrcpy --kill-adb-on-close -wS --power-off-on-close" | wl-copy
+vim .config/zsh/.zshrc
+exit
+scrcpy-wired
+exit
+clear
+scrcpy-wired
+clear
+clear
+scrcpy --help | grep daemon
+scrcpy --help | grep detatch
+scrcpy --help | grep server
+man scrcpu
+man scrcpy
+exit
+exit
+tmux
+ncspot
+cal
