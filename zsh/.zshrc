@@ -24,6 +24,8 @@ alias wobreset='sh ~/.config/scripts/wob.sh'
 alias webcam-preview='mpv av://v4l2:/dev/video0 --profile=low-latency --untimed'
 alias fS="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro sudo pacman -S"
 alias scrcpy-wired="scrcpy --kill-adb-on-close -wS --power-off-on-close &!"
+alias reflector-update="sudo reflector -c Canada --save /etc/pacman.d/mirrorlist --protocol https --sort rate"
+alias wal-update="wal -e -i ~/.config/wallpaper/2.png --contrast=5 -n -a 85"
 
 # Sourcing (plugins)
 source ~/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -37,6 +39,21 @@ fh() {
 # fRns = pacman -Rns with fzf
 fRns() {
         pacman -Qq | fzf --multi --preview 'pacman -Qi {1}' | xargs -ro sudo pacman -Rns
+}
+
+# Connect home tailscale
+tailHome() {
+    sudo systemctl start tailscaled && sh ~/.config/scripts/tailup.sh
+}
+
+# change directory when exiting yazi
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		builtin cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
 }
 
 # Default prompt
@@ -96,3 +113,5 @@ zle -N down-line-or-beginning-search
 [[ -n "${key[Up]}"   ]] && bindkey -- "${key[Up]}"   up-line-or-beginning-search
 [[ -n "${key[Down]}" ]] && bindkey -- "${key[Down]}" down-line-or-beginning-search
 
+# wal
+(cat ~/.cache/wal/sequences &) 
